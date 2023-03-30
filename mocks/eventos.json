@@ -1,0 +1,34 @@
+[
+    {
+        "_id": "642418901a3aca1c85f6b257",
+        "titulo": "Corrida Branca",
+        "descricao": "Encontre seus amigos",
+        "data": "2023-03-05T22:00:00.000Z",
+        "usuario": {
+            "_id": "59a6f9f6633aab53fa6309f1",
+            "nome": "elio.designer@hotmail.com",
+            "email": "elio.designer@hotmail.com",
+            "senha": "Ab@123456"
+        },
+        "participantes": [
+            {
+                "_id": "64241a7393bb4c99a8f0aed5",
+                "usuarioId": "59a6f9f6633aab53fa6309f1",
+                "descricao": "Eu quero ir 2",
+                "data": "2023-03-29T23:43:59.687Z",
+                "nome": "elio.designer@hotmail.com",
+                "email": "elio.designer@hotmail.com",
+                "senha": "Ab@123456"
+            },
+            {
+                "_id": "6424d7a3d5824bb0579e7d42",
+                "usuarioId": "59a6f9f6633aab53fa6309f1",
+                "descricao": "Eu quero ir",
+                "data": "2023-03-30T00:28:19.853Z",
+                "nome": "elio.designer@hotmail.com",
+                "email": "elio.designer@hotmail.com",
+                "senha": "Ab@123456"
+            }
+        ]
+    }
+]
