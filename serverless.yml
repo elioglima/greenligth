@@ -1,0 +1,17 @@
+service: greenlight
+provider:
+  name: aws
+  timeout: 30
+  memorySize: 128
+  runtime: nodejs14.x
+  region: us-east-1 
+  environment:
+    MONGODB_URI: 'mongodb://localhost/greenlight'
+
+functions: ${file(serverless/functions.yml)}
+
+plugins:
+  - serverless-offline
+
+package:
+  excludeDevDependencies: false
