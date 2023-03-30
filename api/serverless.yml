@@ -1,3 +1,5 @@
+org: elioglima
+app: aws-node-express-api-app
 service: greenlight
 provider:
   name: aws
