@@ -8,6 +8,10 @@ const find = async ({ queryStringParameters }) => {
             ...params.id ? { id: params?.id } : {}
         }
         const response = await db.user.find(query)
+        if (response.length == 0) {
+            return utils.httpHelper.ok(response.data)
+        }
+        
         const removePassword = await Promise.all(response.data.map(async user => {
             delete user.senha
             return user
