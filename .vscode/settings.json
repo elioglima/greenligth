@@ -3,5 +3,15 @@
         "activityBar.background": "#072A68",
         "titleBar.activeBackground": "#0A3A92",
         "titleBar.activeForeground": "#F9FBFF"
+    },
+    "editor.formatOnSave": true,
+    "[javascript]": {
+        "editor.formatOnSave": true
+    },
+    "[typescript]": {
+        "editor.formatOnSave": true
+    },
+    "[json]": {
+        "editor.formatOnSave": true
     }
 }
