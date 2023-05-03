@@ -1,11 +1,13 @@
 import {createAppContainer, createSwitchNavigator} from 'react-navigation';
 
-import HomeView from '../view/home';
+import HomeStart from '../view/homeStart';
+import HomeLogged from '../view/homeLogged';
 import EventView from '../view/event';
 
 const Routes = createAppContainer(
   createSwitchNavigator({
-    Home: HomeView,
+    HomeStart: HomeStart,
+    HomeLogged: HomeLogged,
     Event: EventView,
   }),
 );

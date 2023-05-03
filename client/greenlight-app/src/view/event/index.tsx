@@ -11,7 +11,7 @@ const HomeView = ({navigation}: NavigationSwitchScreenProps) => {
         <View>
           <St.Container>
             <St.Title>Event</St.Title>
-            <Button title="Ir para Home" onPress={() => navigation.navigate('Home')} />
+            <Button title="Ir para Home" onPress={() => navigation.navigate('HomeStart')} />
           </St.Container>
         </View>
       </ScrollView>

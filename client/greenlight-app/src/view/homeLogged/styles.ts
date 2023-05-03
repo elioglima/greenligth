@@ -2,10 +2,16 @@ import styled from 'styled-components/native';
 
 export const Container = styled.View`
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  height: 100%;
+  width: 100%;
+  flex-direction: column;
 `;
+
+export const Content = styled.View`
+  display: flex;
+  flex-direction: column;
+  margin: 0 10px;
+`;
+
 export const Title = styled.Text`
   width: 100%;
   text-align: center;
@@ -31,12 +37,12 @@ export const HomeHeader = styled.View`
 
 export const Logo = styled.View`
   position: absolute;
-  top: 265;
+  top: 250;
   left: 30;
   z-index: 1000;
   background-color: #01b282;
   padding: 30px;
-  border-radius: 10;
+  border-radius: 10px;
 `;
 
 export const LogoText = styled.Text`
@@ -46,12 +52,13 @@ export const LogoText = styled.Text`
 
 export const ButtomStart = styled.View`
   position: absolute;
-  bottom: 15;
-  left: 25%;
+  bottom: 15px;
+  left: 0;
+  width: 100%;
   z-index: 1000;
-  background-color: #7000AD;
-  padding: 30px;
-  border-radius: 10;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 `;
 
 export const ButtomStartText = styled.Text`
