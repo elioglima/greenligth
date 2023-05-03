@@ -3,7 +3,6 @@ import {SafeAreaView, ScrollView, StatusBar, View, Button} from 'react-native';
 import {NavigationSwitchScreenProps} from 'react-navigation';
 
 import * as St from './styles';
-
 const HomeView = ({navigation}: NavigationSwitchScreenProps) => {
   return (
     <SafeAreaView>

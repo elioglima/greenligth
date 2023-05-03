@@ -8,12 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		00E356F31AD99517003FC87E /* greenlightappTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* greenlightappTests.m */; };
+		01C8238CDAADFBF0880260B9 /* libPods-greenlightapp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 28EEDBE989259C31155D5F89 /* libPods-greenlightapp.a */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		3DAFEDCAF3210B37285486F6 /* libPods-greenlightapp-greenlightappTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 912889C1A224736F788BD467 /* libPods-greenlightapp-greenlightappTests.a */; };
+		4547463A5344B1C3F79F3C98 /* libPods-greenlightapp-greenlightappTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EDBB48C9E5B016D90D18A5FE /* libPods-greenlightapp-greenlightappTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
-		99BBE2DD0B4317DF03E8C5A2 /* libPods-greenlightapp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DD46A4F2185D9D9B30C7E045 /* libPods-greenlightapp.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,14 +36,14 @@
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = greenlightapp/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = greenlightapp/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = greenlightapp/main.m; sourceTree = "<group>"; };
-		1CA5A0DC0D6E6593197E88B9 /* Pods-greenlightapp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-greenlightapp.debug.xcconfig"; path = "Target Support Files/Pods-greenlightapp/Pods-greenlightapp.debug.xcconfig"; sourceTree = "<group>"; };
-		2395DAC4DC2BFA4C0ED38698 /* Pods-greenlightapp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-greenlightapp.release.xcconfig"; path = "Target Support Files/Pods-greenlightapp/Pods-greenlightapp.release.xcconfig"; sourceTree = "<group>"; };
-		7C381B657588B64FFD630D14 /* Pods-greenlightapp-greenlightappTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-greenlightapp-greenlightappTests.debug.xcconfig"; path = "Target Support Files/Pods-greenlightapp-greenlightappTests/Pods-greenlightapp-greenlightappTests.debug.xcconfig"; sourceTree = "<group>"; };
+		28EEDBE989259C31155D5F89 /* libPods-greenlightapp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-greenlightapp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		78515ED0D90A3C61C4AA3345 /* Pods-greenlightapp-greenlightappTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-greenlightapp-greenlightappTests.debug.xcconfig"; path = "Target Support Files/Pods-greenlightapp-greenlightappTests/Pods-greenlightapp-greenlightappTests.debug.xcconfig"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = greenlightapp/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		8F7324B055F66828F0C04B5F /* Pods-greenlightapp-greenlightappTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-greenlightapp-greenlightappTests.release.xcconfig"; path = "Target Support Files/Pods-greenlightapp-greenlightappTests/Pods-greenlightapp-greenlightappTests.release.xcconfig"; sourceTree = "<group>"; };
-		912889C1A224736F788BD467 /* libPods-greenlightapp-greenlightappTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-greenlightapp-greenlightappTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		DD46A4F2185D9D9B30C7E045 /* libPods-greenlightapp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-greenlightapp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E1F6D3E8B5E3245F0D21FBC /* Pods-greenlightapp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-greenlightapp.release.xcconfig"; path = "Target Support Files/Pods-greenlightapp/Pods-greenlightapp.release.xcconfig"; sourceTree = "<group>"; };
+		DB4C52C980117EFEEB81D9C5 /* Pods-greenlightapp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-greenlightapp.debug.xcconfig"; path = "Target Support Files/Pods-greenlightapp/Pods-greenlightapp.debug.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		EDBB48C9E5B016D90D18A5FE /* libPods-greenlightapp-greenlightappTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-greenlightapp-greenlightappTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA08C3052375E8BA70E2A246 /* Pods-greenlightapp-greenlightappTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-greenlightapp-greenlightappTests.release.xcconfig"; path = "Target Support Files/Pods-greenlightapp-greenlightappTests/Pods-greenlightapp-greenlightappTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,7 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3DAFEDCAF3210B37285486F6 /* libPods-greenlightapp-greenlightappTests.a in Frameworks */,
+				4547463A5344B1C3F79F3C98 /* libPods-greenlightapp-greenlightappTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,7 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				99BBE2DD0B4317DF03E8C5A2 /* libPods-greenlightapp.a in Frameworks */,
+				01C8238CDAADFBF0880260B9 /* libPods-greenlightapp.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -100,8 +100,8 @@
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				DD46A4F2185D9D9B30C7E045 /* libPods-greenlightapp.a */,
-				912889C1A224736F788BD467 /* libPods-greenlightapp-greenlightappTests.a */,
+				28EEDBE989259C31155D5F89 /* libPods-greenlightapp.a */,
+				EDBB48C9E5B016D90D18A5FE /* libPods-greenlightapp-greenlightappTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -140,10 +140,10 @@
 		BBD78D7AC51CEA395F1C20DB /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				1CA5A0DC0D6E6593197E88B9 /* Pods-greenlightapp.debug.xcconfig */,
-				2395DAC4DC2BFA4C0ED38698 /* Pods-greenlightapp.release.xcconfig */,
-				7C381B657588B64FFD630D14 /* Pods-greenlightapp-greenlightappTests.debug.xcconfig */,
-				8F7324B055F66828F0C04B5F /* Pods-greenlightapp-greenlightappTests.release.xcconfig */,
+				DB4C52C980117EFEEB81D9C5 /* Pods-greenlightapp.debug.xcconfig */,
+				8E1F6D3E8B5E3245F0D21FBC /* Pods-greenlightapp.release.xcconfig */,
+				78515ED0D90A3C61C4AA3345 /* Pods-greenlightapp-greenlightappTests.debug.xcconfig */,
+				FA08C3052375E8BA70E2A246 /* Pods-greenlightapp-greenlightappTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -155,12 +155,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "greenlightappTests" */;
 			buildPhases = (
-				86F000ED6D79FCB2CC3B2063 /* [CP] Check Pods Manifest.lock */,
+				CA81195C3D0457A38DDA57C8 /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
-				CB0EFBA0A95E1E46D143A537 /* [CP] Embed Pods Frameworks */,
-				51AFE540E8BE0B6147DE11E4 /* [CP] Copy Pods Resources */,
+				D9B333436D6231DD8BB9718A /* [CP] Embed Pods Frameworks */,
+				7FFA8880AD6D781B40ABA0CD /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -176,14 +176,14 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "greenlightapp" */;
 			buildPhases = (
-				37EF15569590E41736E39F18 /* [CP] Check Pods Manifest.lock */,
+				0A420AD35AE9F1B612719BC1 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
-				B9A6FCFE5D74EF7330023D8A /* [CP] Embed Pods Frameworks */,
-				493EC9DC528991AB0450F139 /* [CP] Copy Pods Resources */,
+				91EEB9F4A6CCD479DC45253D /* [CP] Embed Pods Frameworks */,
+				B1E6D696F108656EC7C2BA09 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -266,7 +266,7 @@
 			shellPath = /bin/sh;
 			shellScript = "set -e\n\nWITH_ENVIRONMENT=\"../node_modules/react-native/scripts/xcode/with-environment.sh\"\nREACT_NATIVE_XCODE=\"../node_modules/react-native/scripts/react-native-xcode.sh\"\n\n/bin/sh -c \"$WITH_ENVIRONMENT $REACT_NATIVE_XCODE\"\n";
 		};
-		37EF15569590E41736E39F18 /* [CP] Check Pods Manifest.lock */ = {
+		0A420AD35AE9F1B612719BC1 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -288,24 +288,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		493EC9DC528991AB0450F139 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-greenlightapp/Pods-greenlightapp-resources-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-greenlightapp/Pods-greenlightapp-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-greenlightapp/Pods-greenlightapp-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		51AFE540E8BE0B6147DE11E4 /* [CP] Copy Pods Resources */ = {
+		7FFA8880AD6D781B40ABA0CD /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -322,7 +305,41 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-greenlightapp-greenlightappTests/Pods-greenlightapp-greenlightappTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		86F000ED6D79FCB2CC3B2063 /* [CP] Check Pods Manifest.lock */ = {
+		91EEB9F4A6CCD479DC45253D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-greenlightapp/Pods-greenlightapp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-greenlightapp/Pods-greenlightapp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-greenlightapp/Pods-greenlightapp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B1E6D696F108656EC7C2BA09 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-greenlightapp/Pods-greenlightapp-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-greenlightapp/Pods-greenlightapp-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-greenlightapp/Pods-greenlightapp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CA81195C3D0457A38DDA57C8 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -344,24 +361,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		B9A6FCFE5D74EF7330023D8A /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-greenlightapp/Pods-greenlightapp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-greenlightapp/Pods-greenlightapp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-greenlightapp/Pods-greenlightapp-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		CB0EFBA0A95E1E46D143A537 /* [CP] Embed Pods Frameworks */ = {
+		D9B333436D6231DD8BB9718A /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -430,7 +430,7 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7C381B657588B64FFD630D14 /* Pods-greenlightapp-greenlightappTests.debug.xcconfig */;
+			baseConfigurationReference = 78515ED0D90A3C61C4AA3345 /* Pods-greenlightapp-greenlightappTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -457,7 +457,7 @@
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8F7324B055F66828F0C04B5F /* Pods-greenlightapp-greenlightappTests.release.xcconfig */;
+			baseConfigurationReference = FA08C3052375E8BA70E2A246 /* Pods-greenlightapp-greenlightappTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
@@ -481,7 +481,7 @@
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1CA5A0DC0D6E6593197E88B9 /* Pods-greenlightapp.debug.xcconfig */;
+			baseConfigurationReference = DB4C52C980117EFEEB81D9C5 /* Pods-greenlightapp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -509,7 +509,7 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2395DAC4DC2BFA4C0ED38698 /* Pods-greenlightapp.release.xcconfig */;
+			baseConfigurationReference = 8E1F6D3E8B5E3245F0D21FBC /* Pods-greenlightapp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
