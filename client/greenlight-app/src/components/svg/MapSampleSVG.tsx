@@ -2,7 +2,7 @@ import React from 'react';
 import {Svg, Path, Rect, Mask, G, Circle, Defs, Pattern, Use, Image} from 'react-native-svg';
 import {View} from 'react-native';
 
-export const MapSample = () => {
+export const MapSampleSVG = () => {
   return (
     <View>
       <Svg width="100%" height="200" viewBox="0 0 405 200" fill="none">

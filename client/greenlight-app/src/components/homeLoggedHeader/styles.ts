@@ -6,12 +6,12 @@ export const Container = styled.View`
   justify-content: space-between;
   width: 100%;
   margin-top: 10px;
+  margin-bottom: 25px;
 `;
 
 export const BaseText = styled.View`
   display: flex;
   flex-direction: column;
-  margin: 0 15px;
 `;
 
 export const BasePhoto = styled.View`

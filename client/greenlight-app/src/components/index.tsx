@@ -7,3 +7,5 @@ export * from './buttomApple';
 export * from './homeLoggedHeader';
 export * from './svg';
 export * from './mapThumbnail';
+export * from './myCaroulsel';
+export * from './horizontalMenu';

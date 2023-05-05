@@ -1,7 +1,7 @@
 import React from 'react';
 import * as St from './styles';
 import {TouchableOpacity} from 'react-native';
-import {LogoFacebook} from '../svg/LogoFacebook';
+import {LogoFacebookSVG} from '../svg/LogoFacebookSVG';
 
 interface iProps {
   title: string;
@@ -15,7 +15,7 @@ export const ButtomFacebook = (props: iProps) => {
   return (
     <TouchableOpacity onPressOut={onPress}>
       <St.Container {...props}>
-        <LogoFacebook />
+        <LogoFacebookSVG />
         <St.Title {...{textTransform: props.textTransform}}>{title}</St.Title>
       </St.Container>
     </TouchableOpacity>

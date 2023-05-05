@@ -2,7 +2,7 @@ import React from 'react';
 import {Svg, Path, Rect, G, Defs, ClipPath} from 'react-native-svg';
 import {View} from 'react-native';
 
-export const LogoFacebook = () => {
+export const LogoFacebookSVG = () => {
   return (
     <View>
       <Svg width="24" height="24" viewBox="0 0 24 24" fill="none">

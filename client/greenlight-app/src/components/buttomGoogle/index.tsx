@@ -1,7 +1,7 @@
 import React from 'react';
 import * as St from './styles';
 import {TouchableOpacity} from 'react-native';
-import {LogoGoogle} from '../svg/LogoGoogle';
+import {LogoGoogleSVG} from '../svg/LogoGoogleSVG';
 
 interface iProps {
   title: string;
@@ -15,7 +15,7 @@ export const ButtomGoogle = (props: iProps) => {
   return (
     <TouchableOpacity onPressOut={onPress}>
       <St.Container {...props}>
-        <LogoGoogle />
+        <LogoGoogleSVG />
         <St.Title {...{textTransform: props.textTransform}}>{title}</St.Title>
       </St.Container>
     </TouchableOpacity>
