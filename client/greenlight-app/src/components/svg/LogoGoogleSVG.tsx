@@ -1,6 +1,6 @@
 import React from 'react';
-import {Svg, Path, Rect} from 'react-native-svg';
 import {View} from 'react-native';
+import {Path, Rect, Svg} from 'react-native-svg';
 
 export const LogoGoogleSVG = () => {
   return (

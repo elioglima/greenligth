@@ -1,8 +1,8 @@
 import React from 'react';
-import {Svg, Path} from 'react-native-svg';
 import {View} from 'react-native';
+import {Path, Svg} from 'react-native-svg';
 
-export const CalendarAddSVG = () => {
+export const IconCalendarAddSVG = () => {
   return (
     <View>
       <Svg width="45" height="45" viewBox="0 0 45 45" fill="none">

@@ -1,7 +1,7 @@
 import React from 'react';
-import * as St from './styles';
 import {TouchableOpacity} from 'react-native';
 import {LogoAppleSVG} from '../svg/LogoAppleSVG';
+import * as St from './styles';
 
 interface iProps {
   title: string;

@@ -1,9 +1,9 @@
 import React, {useState} from 'react';
 import {NavigationSwitchScreenProps} from 'react-navigation';
 
+import {ButtomGo, ButtomLogin, LoadApp} from 'components';
+import HomeHeader from 'components/homeHeader';
 import * as St from './styles';
-import HomeHeader from '../../components/homeHeader';
-import {LoadApp, ButtomGo, ButtomLogin} from '../../components';
 
 const HomeView = ({navigation}: NavigationSwitchScreenProps) => {
   const [optIn, setOptIn] = useState(false);

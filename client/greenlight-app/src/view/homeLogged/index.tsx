@@ -1,18 +1,19 @@
 import React from 'react';
 import {TouchableOpacity} from 'react-native';
 import {NavigationSwitchScreenProps} from 'react-navigation';
+
 import {
-  LoadApp,
   HomeLoggedHeader,
-  MapThumbnail,
   HorizontalMenu,
-  CalendarSVG,
-  CalendarAddSVG,
-} from '../../components';
+  IconCalendarAddSVG,
+  IconCalendarSVG,
+  LoadApp,
+  MapThumbnail,
+} from 'components';
 
 import * as St from './styles';
 
-const HomeView = ({}: NavigationSwitchScreenProps) => {
+const HomeView = ({navigation}: NavigationSwitchScreenProps) => {
   return (
     <LoadApp>
       <St.Container>
@@ -25,10 +26,13 @@ const HomeView = ({}: NavigationSwitchScreenProps) => {
           </St.Box>
           <MapThumbnail />
           <St.ButtomRow>
-            <TouchableOpacity>
+            <TouchableOpacity
+              onPress={() => {
+                navigation.navigate('EventView');
+              }}>
               <St.ButtomBase>
                 <St.ButtomLogo>
-                  <CalendarSVG />
+                  <IconCalendarSVG />
                 </St.ButtomLogo>
                 <St.ButtomText>Meus Eventos</St.ButtomText>
               </St.ButtomBase>
@@ -36,7 +40,7 @@ const HomeView = ({}: NavigationSwitchScreenProps) => {
             <TouchableOpacity>
               <St.ButtomBase>
                 <St.ButtomLogo>
-                  <CalendarAddSVG />
+                  <IconCalendarAddSVG />
                 </St.ButtomLogo>
                 <St.ButtomText>Criar Evento</St.ButtomText>
               </St.ButtomBase>

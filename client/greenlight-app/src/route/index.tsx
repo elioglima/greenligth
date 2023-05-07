@@ -8,7 +8,7 @@ const Routes = createAppContainer(
   createSwitchNavigator({
     HomeStart: HomeStart,
     HomeLogged: HomeLogged,
-    Event: EventView,
+    EventView: EventView,
   }),
 );
 
