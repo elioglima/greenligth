@@ -5,6 +5,7 @@ export * from './IconCalendarAddSVG';
 export * from './IconCalendarSVG';
 export * from './IconSmallCalendarSVG';
 export * from './IconSmallTimeSVG';
+export * from './IconTaskEditItemsSVG';
 export * from './LogoAppleSVG';
 export * from './LogoFacebookSVG';
 export * from './LogoGoogleSVG';

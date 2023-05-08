@@ -1,8 +1,8 @@
-import React, {Fragment} from 'react';
+import React from 'react';
 import {NavigationParams, NavigationRoute, NavigationSwitchProp} from 'react-navigation';
-import * as St from './styles';
 
-import {ButtomApple, ButtomFacebook, ButtomGoogle} from '../../components';
+import {ButtomApple, ButtomFacebook, ButtomGoogle} from 'components';
+import * as St from './styles';
 
 interface props {
   optIn: boolean;
@@ -10,7 +10,7 @@ interface props {
   navigation: NavigationSwitchProp<NavigationRoute, NavigationParams>;
 }
 
-export const ButtomLogin = ({optIn, navigation}: props) => {
+export const ModalButtomLogin = ({optIn, navigation}: props) => {
   if (!optIn) {
     return <></>;
   }

@@ -2,14 +2,15 @@ import React, {useState} from 'react';
 import {TouchableOpacity} from 'react-native';
 import {NavigationSwitchScreenProps} from 'react-navigation';
 
-import EventList from 'components/eventList';
-import {LoadApp} from 'components/loadApp';
-import {IconBigAddSVG} from 'components/svg';
+import {EventList, IconBigAddSVG, LoadApp, ModalAddEvent, ModalDetailsEvent} from 'components';
 import {TListItems} from 'domain/types/TListItems';
+
 import * as St from './styles';
 
 const EventView = (props: NavigationSwitchScreenProps) => {
   const {navigation} = props;
+  const [openEditItem, setOpenEditItem] = useState<TListItems | undefined>();
+  const [openAddItem, setOpenAddItem] = useState<boolean>(false);
 
   const dataMock: TListItems[] = [
     {
@@ -52,11 +53,35 @@ const EventView = (props: NavigationSwitchScreenProps) => {
     );
   };
   return (
-    <LoadApp {...props} backRoute={'HomeLogged'} title="Eventos" iconRight={<IconRight />}>
-      <St.Container>
-        <EventList navigation={navigation} items={dataListItem} />
-      </St.Container>
-    </LoadApp>
+    <>
+      <ModalAddEvent
+        open={openAddItem}
+        navigation={navigation}
+        setOpenAddItem={setOpenAddItem}
+        onClose={() => {
+          setOpenAddItem(false);
+        }}
+      />
+      <ModalDetailsEvent
+        open={!!openEditItem}
+        item={openEditItem}
+        onClose={() => {
+          setOpenEditItem(undefined);
+        }}
+        navigation={navigation}
+      />
+      <LoadApp {...props} backRoute={'HomeLogged'} title="Eventos" iconRight={<IconRight />}>
+        <St.Container>
+          <EventList
+            onPressEdit={value => {
+              setOpenEditItem(value);
+            }}
+            items={dataListItem}
+            setOpenAddItem={setOpenAddItem}
+          />
+        </St.Container>
+      </LoadApp>
+    </>
   );
 };
 

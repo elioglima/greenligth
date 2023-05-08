@@ -41,8 +41,8 @@ export const LogoText = styled.Text`
 export const ButtomStart = styled.View`
   position: absolute;
   bottom: 15px;
-  left: 0;
-  width: 100%;
+  left: 15%;
+  width: 70%;
   z-index: 1000;
   display: flex;
   flex-direction: row;

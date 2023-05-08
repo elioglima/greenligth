@@ -1,14 +1,16 @@
 import React, {useState} from 'react';
 import {NavigationSwitchScreenProps} from 'react-navigation';
 
-import {ButtomGo, ButtomLogin, LoadApp} from 'components';
+import {ButtomGo, LoadApp, ModalButtomLogin} from 'components';
 import HomeHeader from 'components/homeHeader';
 import * as St from './styles';
 
-const HomeView = ({navigation}: NavigationSwitchScreenProps) => {
+const HomeView = (props: NavigationSwitchScreenProps) => {
+  const {navigation}: NavigationSwitchScreenProps = props;
   const [optIn, setOptIn] = useState(false);
+
   return (
-    <LoadApp>
+    <LoadApp {...props}>
       <St.HomeHeader>
         <HomeHeader />
       </St.HomeHeader>
@@ -21,7 +23,7 @@ const HomeView = ({navigation}: NavigationSwitchScreenProps) => {
         maratonas, corridas,e muito mais.
       </St.Description>
       {optIn ? (
-        <ButtomLogin optIn={optIn} setOptIn={setOptIn} navigation={navigation} />
+        <ModalButtomLogin optIn={optIn} setOptIn={setOptIn} navigation={navigation} />
       ) : (
         <St.ButtomStart>
           <ButtomGo

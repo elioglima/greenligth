@@ -14,7 +14,6 @@ rules:
   class-methods-use-this: 0
   max-classes-per-file: 0
   no-console: 'off'
-  'react-native/no-inline-styles': 'off'
   '@typescript-eslint/dot-notation': 'off'
   'import/no-extraneous-dependencies': 'off'
   '@typescript-eslint/no-unused-vars': 'off'
@@ -34,7 +33,7 @@ rules:
   'prefer-promise-reject-errors': 'off'
   'prettier/prettier': 'off'
   'react/react-in-jsx-scope': 'off'
-  'react-native/no-inline-styles': 'off'  
+  'react-native/no-inline-styles': 'off'
   '@typescript-eslint/no-shadow': 'off'
 
 plugins:

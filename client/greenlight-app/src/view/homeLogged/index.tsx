@@ -13,9 +13,11 @@ import {
 
 import * as St from './styles';
 
-const HomeView = ({navigation}: NavigationSwitchScreenProps) => {
+const HomeView = (props: NavigationSwitchScreenProps) => {
+  const {navigation}: NavigationSwitchScreenProps = props;
+
   return (
-    <LoadApp>
+    <LoadApp {...props}>
       <St.Container>
         <St.Content>
           <St.Box>
