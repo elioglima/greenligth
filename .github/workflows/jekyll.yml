@@ -38,7 +38,7 @@ jobs:
         with:
           node-version: 14.x
       - name: Localizando diretorio
-        run: cd client/greenlight-front
+        run: ls -s
       - name: Instalando dependencias
         run: npm install
 
@@ -49,4 +49,3 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./client/greenlight-front/build
-
