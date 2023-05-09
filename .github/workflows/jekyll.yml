@@ -45,8 +45,9 @@ jobs:
         working-directory: client/greenlight-front/
         run: yarn build
 
-      - name: deploy
-        working-directory: ./client/greenlight-front/build
-        run: |
-          sudo gem install jekyll
-          jekyll serve --port ${{ env.PORT }} --host ${{ env.HOST }}
+      - name: Build and Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          personal_token: ${{ secrets.ACCESS_TOKEN }}
+          publish_dir: ./client/greenlight-front/build
+          publish_branch: gh-pages
