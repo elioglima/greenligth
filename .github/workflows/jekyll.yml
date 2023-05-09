@@ -38,6 +38,8 @@ jobs:
         with:
           node-version: 14.x
       - name: Instalando dependencias
+        run: npm -g yarn
+      - name: Instalando dependencias
         run: npm install --prefix client/greenlight-front/
 
       - name: Build Sites
