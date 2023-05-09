@@ -59,7 +59,3 @@ jobs:
           personal_token: ${{ secrets.ACCESS_TOKEN }}
           publish_branch: gh-pages
           publish_dir: ./build
-
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v3
