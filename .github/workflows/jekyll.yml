@@ -38,7 +38,9 @@ jobs:
         with:
           node-version: 14.x
       - name: Localizando diretorio
-        run: ls -s
+        run: cd client/greenlight-front/
+      - name: Localizando diretorio
+        run: ls -a
       - name: Instalando dependencias
         run: npm install
 
