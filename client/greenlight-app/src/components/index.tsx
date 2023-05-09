@@ -6,6 +6,7 @@ export * from './buttomGoogle';
 export * from './eventList';
 export * from './homeLoggedHeader';
 export * from './horizontalMenu';
+export * from './inputDefault';
 export * from './loadApp';
 export * from './mapThumbnail';
 export * from './modalAddEvent';

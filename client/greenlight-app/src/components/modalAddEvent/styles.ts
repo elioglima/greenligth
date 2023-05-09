@@ -6,7 +6,6 @@ export const ContainerBase = styled.View`
   left: 0;
   width: 100%;
   height: 100%;
-  z-index: 1000;
   background-color: rgba(0, 0, 0, 0.8);
 `;
 
@@ -63,6 +62,10 @@ export const BaseClose = styled.View`
   margin: 10px 30% 20px 30%;
 `;
 
+export const BaseHeader = styled.View`
+  display: flex;
+`;
+
 export const Row = styled.View`
   display: flex;
   flex-direction: row;
@@ -116,7 +119,29 @@ export const Maps = styled.View`
 export const Buttons = styled.View`
   display: flex;
   width: 94%;
-  margin: 10px 10px;
+  margin: 0px 10px 35px 10px;
+  flex-direction: row;
+  justify-content: center;
+`;
+
+export const FormBase = styled.View`
+  display: flex;
+  position: relative;
+`;
+
+export const Forms = styled.View`
+  display: flex;
+  margin: 15px;
+  flex-direction: column;
+`;
+
+export const FormInput = styled.View`
+  display: flex;
+`;
+
+export const FormRow = styled.View`
+  display: flex;
   flex-direction: row;
   justify-content: space-between;
+  margin-bottom: 15px;
 `;

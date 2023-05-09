@@ -54,22 +54,6 @@ const EventView = (props: NavigationSwitchScreenProps) => {
   };
   return (
     <>
-      <ModalAddEvent
-        open={openAddItem}
-        navigation={navigation}
-        setOpenAddItem={setOpenAddItem}
-        onClose={() => {
-          setOpenAddItem(false);
-        }}
-      />
-      <ModalDetailsEvent
-        open={!!openEditItem}
-        item={openEditItem}
-        onClose={() => {
-          setOpenEditItem(undefined);
-        }}
-        navigation={navigation}
-      />
       <LoadApp {...props} backRoute={'HomeLogged'} title="Eventos" iconRight={<IconRight />}>
         <St.Container>
           <EventList
@@ -81,6 +65,22 @@ const EventView = (props: NavigationSwitchScreenProps) => {
           />
         </St.Container>
       </LoadApp>
+      <ModalDetailsEvent
+        open={!!openEditItem}
+        item={openEditItem}
+        onClose={() => {
+          setOpenEditItem(undefined);
+        }}
+        navigation={navigation}
+      />
+      <ModalAddEvent
+        open={openAddItem}
+        navigation={navigation}
+        setOpenAddItem={setOpenAddItem}
+        onClose={() => {
+          setOpenAddItem(false);
+        }}
+      />
     </>
   );
 };

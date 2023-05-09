@@ -5,7 +5,6 @@ export const BaseHeader = styled.View`
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  z-index: 1000;
 `;
 
 export const BackRoute = styled.View`

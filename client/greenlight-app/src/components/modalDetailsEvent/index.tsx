@@ -76,7 +76,6 @@ export const ModalDetailsEvent = ({open, onClose, navigation, item, setOpenAddIt
             </TouchableOpacity>
           </St.Col>
         </St.Buttons>
-        <St.Map></St.Map>
       </St.Container>
     </>
   );
