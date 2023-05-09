@@ -41,7 +41,7 @@ jobs:
         run: yarn --modules-folder client/greenlight-front/
 
       - name: Build Sites
-        run: npm run build
+        run: yarn build --modules-folder client/greenlight-front/
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
