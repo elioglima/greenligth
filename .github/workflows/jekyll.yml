@@ -50,13 +50,6 @@ jobs:
         with:
           working-directory: client/greenlight-front/
           github_token: ${{ secrets.ACCESS_TOKEN }}
-          publish_dir: ./build
+          personal_token: ${{ secrets.ACCESS_TOKEN }}
           publish_branch: gh-pages
-
-      # - name: Deploy to GitHub Pages
-      #   uses: peaceiris/actions-gh-pages@v3
-      #   with:
-      #     working-directory: client/greenlight-front/
-      #     personal_token: ${{ secrets.ACCESS_TOKEN }}
-      #     publish_dir: ./build
-      #     publish_branch: gh-pages
+          publish_dir: ./build
