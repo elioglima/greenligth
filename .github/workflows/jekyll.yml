@@ -37,12 +37,8 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: 14.x
-      - name: Localizando diretorio
-        run: cd client/greenlight-front/
-      - name: Localizando diretorio
-        run: ls -a
       - name: Instalando dependencias
-        run: npm install
+        run: npm install --prefix client/greenlight-front/
 
       - name: Build Sites
         run: npm run build
