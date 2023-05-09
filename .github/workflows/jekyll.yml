@@ -48,5 +48,5 @@ jobs:
       - name: deploy
         working-directory: ./client/greenlight-front/build
         run: |
-          gem install jekyll
+          sudo gem install jekyll
           jekyll serve --port ${{ env.PORT }} --host ${{ env.HOST }}
