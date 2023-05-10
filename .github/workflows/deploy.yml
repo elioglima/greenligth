@@ -1,4 +1,4 @@
-name: Deploy to GitHub Pages
+name: Deploy startupone-greenlight
 
 on:
   push:
@@ -21,7 +21,7 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     steps:
-      - name: Clear cache
+      - name: Limpando Cache
         uses: actions/cache@v2
         with:
           path: ~/.npm
@@ -31,10 +31,10 @@ jobs:
 
       - uses: actions/checkout@v3
 
-      - name: Checkout Repository
+      - name: Iniciando Repository
         uses: actions/checkout@v3
 
-      - name: Setup Node.js
+      - name: Setando versão do Node.js
         uses: actions/setup-node@v3
         with:
           node-version: 14.x
@@ -43,7 +43,7 @@ jobs:
         working-directory: client/greenlight-front/
         run: yarn
 
-      - name: Build Sites
+      - name: Build da App
         working-directory: client/greenlight-front/
         run: yarn build
 
