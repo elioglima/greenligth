@@ -16,9 +16,6 @@ concurrency:
 
 jobs:
   build-and-deploy:
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     steps:
       - name: Limpando Cache
@@ -50,6 +47,7 @@ jobs:
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
+          node-version: 16.x
           github_token: ${{ secrets.ACCESS_TOKEN }}
           personal_token: ${{ secrets.ACCESS_TOKEN }}
           publish_branch: gh-pages
