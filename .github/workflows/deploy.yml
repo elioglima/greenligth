@@ -34,7 +34,7 @@ jobs:
           path: |
             node_modules
             ~/.npm
-          key: ${{ runner.os }}-npm-${{ hashFiles('**/package-lock.json') }}
+          key: ${{ runner.os }}-npm-${{ hashFiles('**/yarn-lock.json') }}
 
       - name: Instalando dependencias
         working-directory: client/greenlight-front/
