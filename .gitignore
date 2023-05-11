@@ -1,10 +1,15 @@
 node_modules
 node_modules
 package-lock.json
+yarn-lock.json
 coverage
 manifest.json
 .serverless/
 .idea
+client/greenlight-app/node_modules
+client/greenlight-app/package-lock.json
+client/greenlight-app/yarn-lock.json
+
 client/greenlight-front/node_modules
 client/greenlight-front/package-lock.json
 client/greenlight-front/yarn-lock.json
